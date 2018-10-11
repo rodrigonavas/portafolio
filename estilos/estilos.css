@@ -1,0 +1,99 @@
+*{
+    border:0;
+    margin:0;
+    padding:0;
+}
+
+body{
+  background: #ccc;
+}
+
+#contenedor{
+  height: 1050px;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#informacion, #habilidades, #experiencia, #contacto{
+  background: #fff;
+  width: 800px;
+  height: 200px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#informacion #foto{
+  background: #ccc;
+  height: 150px;
+  width: 150px;
+  float: left;
+}
+
+header {
+  background: #21CECD;
+  height: 50px;
+  width: 830px;
+  text-align: center;
+
+
+}
+header nav{
+  padding-top: 15px;
+
+}
+
+header a{
+  text-decoration: none;
+  color:white;
+}
+
+header li{
+  display: inline;
+  font-size: 20px;
+  padding: 0 30px 0 30px;
+
+}
+
+#biografia{
+  background: #fff;
+  height: 300px;
+  width: 770px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  text-align: justify;
+}
+
+#biografia #foto2{
+  background: #ccc;
+  height: 200px;
+  width: 200px;
+  float: right;
+}
+
+#habilidades{
+  background: #0A0A1E;
+  height: 300px;
+}
+
+#habilidades .hab{
+  color: white;
+}
+
+#habilidades h3{
+  color:#21CECD;
+  /*border: 1px solid #21CECD;*/
+  margin: 15px;
+}
+
+#experiencia{
+  background: #fff;
+  height: 300px
+}
+
+#contacto{
+  background: #0A0A1E;
+  height: 80px
+  text-align: center;
+}
