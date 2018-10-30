@@ -19,21 +19,13 @@ body{
   background: #fff;
   width: 800px;
   height: 200px;
-  padding-left: 30px;
-  padding-top: 30px;
-}
-
-#informacion #foto{
-  background: #ccc;
-  height: 150px;
-  width: 150px;
-  float: left;
+  padding: 30px;
 }
 
 header {
   background: #21CECD;
   height: 50px;
-  width: 830px;
+  width: 860px;
   text-align: center;
 
 
@@ -58,42 +50,59 @@ header li{
 #biografia{
   background: #fff;
   height: 300px;
-  width: 770px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 30px;
+  width: 800px;
+  padding: 30px;
   text-align: justify;
 }
 
-#biografia #foto2{
-  background: #ccc;
-  height: 200px;
-  width: 200px;
-  float: right;
+
+
+#divbio{
+  display: flex;
 }
 
 #habilidades{
   background: #0A0A1E;
   height: 300px;
+  padding: 30px;
 }
 
 #habilidades .hab{
-  color: white;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+
 }
 
 #habilidades h3{
   color:#21CECD;
+  font-size: 17px;
   /*border: 1px solid #21CECD;*/
-  margin: 15px;
+  width: 30%;
+  dsiplay: flex;
+  text-align: right;
+  padding-right: 15px;
+
+
+}
+
+#habilidades p{
+  color: white;
+  width: 60%;
+  border-left: 1px solid #21CECD;
+  padding-left: 15px;
+
 }
 
 #experiencia{
   background: #fff;
   height: 300px
+  padding: 30px;
 }
 
 #contacto{
   background: #0A0A1E;
   height: 80px
   text-align: center;
+  padding: 30px;
 }
